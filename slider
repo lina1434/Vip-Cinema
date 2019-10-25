@@ -1,0 +1,45 @@
+ <ul class= "slider">
+                <li >
+                    <!-- <input type="radio" name="slider" checked>  -->
+                    <img src="img/slider2.jpg" alt="">
+                </li>
+                <li >
+                    <!-- <input type="radio" name="slider" checked> -->
+                    <img src="img/inception_movie_poster_banner_04.jpg" alt="">
+                </li>
+                <li >
+                    <!-- <input type="radio" name="slider" checked> -->
+                    <img src="img/slider4.jpg" alt="">
+                </li>
+                <li >
+                    <!-- <input type="radio" name="slider" checked> -->
+                    <img src="img/slider6.jpg" alt="">
+                </li>
+                <li >
+                    <!-- <input type="radio" name="slider" checked> -->
+                    <img src="img/slider2.jpg" alt="">
+                </li>
+            </ul>
+            
+            
+            
+            CSS
+            .carouselslide{
+    animation:cambio 20s infinite alternative;
+}
+@keyframes cambio{
+    0% {margin-left:0;}
+    20% { margin-left:0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    25%{margin-left: -200%;}
+    45%{margin-left: -200%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -200%;}
+    100%{margin-left: -200%;}
+}
